@@ -18,6 +18,7 @@ function animate(){
 
 	road.draw(ctx);
 	car.draw(ctx);
+	
 	ctx.restore();
 	requestAnimationFrame(animate);
 }
